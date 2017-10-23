@@ -107,7 +107,7 @@
 <meta property="og:image" content="/2017/09/12/hexo-install-git/show.jpg">
 <meta property="og:image" content="/2017/09/12/hexo-install-git/bind_DNS.jpg">
 <meta property="og:image" content="/2017/09/12/hexo-install-git/git_yuming.jpg">
-<meta property="og:updated_time" content="2017-10-23T12:30:30.218Z">
+<meta property="og:updated_time" content="2017-10-23T12:42:11.153Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux + hexo + github + 自己域名">
 <meta name="twitter:description" content="Linux + hexo + github + 自己域名1. hexo 安装1.1 nodejs 和 npm 的安装由于阿里云源中nodejs所需要的基础库没有所以无法采用1yum install nodejs 的方式安装，所以采用源码包安装的方式 。最新的nodejs中包含npm,所以npm不必单独安装">
@@ -346,7 +346,7 @@
 <p>访问 <a href="http://snailxzhou.github.io">http://snailxzhou.github.io</a><br><img src="/2017/09/12/hexo-install-git/show.jpg" alt="show.jpg" title=""></p>
 <h3 id="4-结合自己域名"><a href="#4-结合自己域名" class="headerlink" title="4. 结合自己域名"></a>4. 结合自己域名</h3><p>ping github获取IP地址<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[root@iZ2ze142e921h5v1m5z7hsZ ~]<span class="comment"># ping snailxzhou.github.io</span></div><div class="line">PING sni.github.map.fastly.net (151.101.73.147) 56(84) bytes of data.</div><div class="line">64 bytes from 151.101.73.147 (151.101.73.147): icmp_seq=2 ttl=49 time=119 ms</div><div class="line">64 bytes from 151.101.73.147 (151.101.73.147): icmp_seq=3 ttl=49 time=119 ms</div><div class="line">...</div></pre></td></tr></table></figure></p>
 <p>去域名服务商处修改DNS<br><img src="/2017/09/12/hexo-install-git/bind_DNS.jpg" alt="bind_DNS.jpg" title=""><br>在Github的xxx.github.io项目,进入【Settings】标签页,在【Custom domain】功能中,将刚刚申请的域名写进去。<br><img src="/2017/09/12/hexo-install-git/git_yuming.jpg" alt="git_yuming.jpg" title=""><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure></p>
-<p>访问自己的域名成功显示则部署成功。</p>
+<p>访问自己的域名成功显示则部署成功。<br><code>注意每次hexo d后需要重新在【Settings】中设置域名</code></p>
 
       
     </div>
