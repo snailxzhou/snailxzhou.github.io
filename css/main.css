@@ -1740,7 +1740,7 @@ pre .javascript .function {
   border: 1px solid #eee;
 /* 头像圆形 */
   border-radius: 80px;
-  -webkit-border-radius: 80px;
+  -webkit-border-radius: 50%;
   -moz-border-radius: 80px;
   box-shadow: inset 0 -1px 0 #333 sf;
 /* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束 
@@ -1923,7 +1923,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9f65;
+  background: #ff6eff;
 }
 .links-of-blogroll {
   font-size: 13px;
